@@ -102,7 +102,7 @@ def roman_to_int(roman_string: str) -> int:
         number += currentNumber
         # print(number)
 
-    # if encoder(number) != roman_string:
-    # number = 0
+    if encoder(number) != roman_string:
+        number = 0
 
     return number
